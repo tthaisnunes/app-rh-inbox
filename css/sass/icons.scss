@@ -1,0 +1,45 @@
+.icon{
+	background: url(../images/sprite.svg) no-repeat;
+	background-size: 349px 287px;
+	display: inline-block;
+	float: left;
+	margin-right: 5px;
+}
+
+.icon-back{
+	width: 18px;
+	height: 27px;
+	background-position: 0px -32px;
+	margin: 0;
+	position: relative;
+	z-index: 2;
+}
+
+.icon-calendar-check{
+	width: 28px;
+	height: 28px;
+	background-position: 1px 0px;
+	margin: 10px 10px 53px;
+	position: relative;
+	z-index: 2;
+}
+
+.icon-calendar{
+	width: 31px;
+	height: 29px;
+	background-position: -27px -2px;
+	margin: 6px 0px;
+	margin-right: 10px;
+	position: relative;
+	z-index: 2;
+}
+
+.icon-legislacao {
+	width: 27px;
+	height: 30px;
+	background-position: -59px -1px;
+	margin: 4px 0px;
+	margin-right: 10px;
+	position: relative;
+	z-index: 2;
+}

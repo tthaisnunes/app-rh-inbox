@@ -1,0 +1,280 @@
+body * {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  margin: 0;
+  padding: 0; }
+
+a {
+  text-decoration: none !important; }
+
+strong {
+  font-weight: bold; }
+
+ul li {
+  list-style: none; }
+
+img {
+  max-width: 100%;
+  max-height: 100%; }
+
+.br-mobile {
+  display: block; }
+
+.text-center {
+  text-align: center; }
+
+.color-white {
+  color: #fff; }
+
+.no-wrap {
+  white-space: nowrap; }
+
+.no-margin-bottom {
+  margin-bottom: 0 !important; }
+
+.no-margin-top {
+  margin-top: 0 !important; }
+
+.no-border {
+  border-top: 0 !important;
+  border-bottom: 0 !important;
+  border-left: 0 !important;
+  border-right: 0 !important; }
+
+.bg-gray {
+  height: 100%;
+  width: 100%;
+  background: #ebebeb; }
+
+.bg-white {
+  background: #fff;
+  padding: 15px;
+  margin: 7px 0; }
+
+.small-text {
+  font-size: 10px; }
+
+.icon {
+  background: url(../images/sprite.svg) no-repeat;
+  background-size: 349px 287px;
+  display: inline-block;
+  float: left;
+  margin-right: 5px; }
+
+.icon-back {
+  width: 18px;
+  height: 27px;
+  background-position: 0px -32px;
+  margin: 0;
+  position: relative;
+  z-index: 2; }
+
+.icon-calendar-check {
+  width: 28px;
+  height: 28px;
+  background-position: 1px 0px;
+  margin: 10px 10px 53px;
+  position: relative;
+  z-index: 2; }
+
+.icon-calendar {
+  width: 31px;
+  height: 29px;
+  background-position: -27px -2px;
+  margin: 6px 0px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 2; }
+
+.icon-legislacao {
+  width: 27px;
+  height: 30px;
+  background-position: -59px -1px;
+  margin: 4px 0px;
+  margin-right: 10px;
+  position: relative;
+  z-index: 2; }
+
+.ps-site-top {
+  background: #004a70; }
+
+.ps-logo {
+  float: right;
+  width: 60px;
+  background-size: cover; }
+
+.ps-site-top {
+  padding: 6px 0; }
+
+.content-ps-logo {
+  display: inline-block;
+  float: right;
+  height: 20px;
+  margin-top: 3px; }
+
+.title-app {
+  color: #fff;
+  font-size: 15px;
+  font-weight: 300;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  left: 0;
+  line-height: 1.7;
+  z-index: 0; }
+
+.alert-calendar {
+  background: #e77e24;
+  -webkit-box-shadow: inset 0px -10px 10px -7px rgba(0, 0, 0, 0.17);
+  -moz-box-shadow: inset 0px -10px 10px -7px rgba(0, 0, 0, 0.17);
+  box-shadow: inset 0px -10px 10px -7px rgba(0, 0, 0, 0.17); }
+
+.title-alert-calendar {
+  font-size: 16px;
+  margin: 12px 0 3px;
+  line-height: 1.7; }
+
+.alert-calendar p {
+  font-size: 12px; }
+
+.title-cicle {
+  font-size: 16px;
+  color: #00adef; }
+
+.desc-cicle {
+  font-size: 14px;
+  margin-bottom: 10px; }
+
+.link-externo {
+  position: relative; }
+
+.link-externo:after {
+  content: "";
+  background: url(../images/sprite.svg) no-repeat;
+  background-size: 349px 287px;
+  width: 14px;
+  height: 20px;
+  background-position: -87px -6px;
+  position: absolute;
+  right: 15px;
+  top: 35%; }
+
+.title-page-inner {
+  font-size: 21px;
+  color: #00adef;
+  margin: 25px 0 0; }
+
+.img-circle {
+  /*padding: 0 20px;*/
+  box-sizing: border-box;
+  margin: 20px auto;
+  display: block;
+  max-width: 300px; }
+
+.ps-accordion .ps-accordion-opened .ps-panel-head,
+.ps-accordion .ps-panel-head,
+.ps-accordion .ps-panel-head:hover {
+  background: #00adef;
+  color: #fff;
+  border-radius: 0;
+  font-size: 15px;
+  font-weight: 300;
+  padding-right: 40px; }
+
+.ps-accordion .ps-accordion-opened .ps-panel-head:after,
+.ps-accordion .ps-panel-head:after {
+  font-size: 20px;
+  color: #fff; }
+
+.ps-panel-ctt {
+  background: #fff; }
+
+.ps-panel {
+  margin-bottom: 0;
+  border: 0;
+  border-bottom: 0px solid #fff; }
+
+.title-accordion {
+  font-size: 12px;
+  font-weight: bold;
+  color: #757575;
+  margin: 15px 0 5px; }
+
+.desc-accordion {
+  font-size: 14px;
+  color: #757576; }
+
+.ps-panel-ctt {
+  padding-top: 0; }
+
+.doubt {
+  margin: 30px 0; }
+
+.doubt .title-page-inner {
+  margin: 5px 0; }
+
+.desc-doubt {
+  font-size: 13px;
+  font-weight: bold;
+  color: #757575; }
+
+.ps-frm-calendar-availability .ui-datepicker {
+  padding: 0; }
+
+.ps-frm-calendar-availability .ui-datepicker .ui-widget-header {
+  background: #00adef;
+  color: #fff;
+  border-radius: 0; }
+
+.ui-datepicker .ui-datepicker-prev:before,
+.ui-datepicker .ui-datepicker-next:before {
+  color: #fff; }
+
+.ui-datepicker-calendar thead th {
+  background: #00adef;
+  color: #fff; }
+
+.ui-datepicker thead td.ui-datepicker-week-end,
+.ui-datepicker thead th.ui-datepicker-week-end {
+  color: #fff; }
+
+.ps-frm-calendar-availability .ps-frm-datepicker-availableDate .ui-state-default {
+  background: #00adef !important;
+  color: #fff !important; }
+
+.title-list-calendar {
+  font-size: 14px;
+  font-weight: bold;
+  color: #727272; }
+
+.content-date {
+  font-size: 20px;
+  font-weight: bold;
+  color: #727272;
+  width: 60px;
+  text-align: center;
+  float: left; }
+
+.content-date span {
+  font-size: 41px;
+  color: #727272; }
+
+.desc-date {
+  float: left;
+  margin: 10px; }
+
+.desc-date .title {
+  font-size: 20px;
+  color: #00adef; }
+
+.desc-date p {
+  font-size: 13px; }
+
+.container-date {
+  float: left;
+  width: 100%;
+  border-top: solid 1px #e5e5e5;
+  margin-top: 10px; }
+
+/*# sourceMappingURL=main.css.map */
